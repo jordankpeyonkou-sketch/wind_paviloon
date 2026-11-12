@@ -1,0 +1,15 @@
+[package]
+name = "glassdesk-render"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+bytemuck = { version = "1.16", features = ["derive"] }
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+wgpu = "0.19"
+winit = "0.29"
+
+[dev-dependencies]
+naga = { version = "0.19", features = ["wgsl-in"] }

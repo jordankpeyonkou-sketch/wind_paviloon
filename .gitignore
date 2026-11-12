@@ -1,0 +1,10 @@
+/target/
+/build/
+/out/
+/.vs/
+**/bin/
+**/obj/
+*.pdb
+*.ilk
+*.obj
+*.exp
